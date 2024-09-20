@@ -23,3 +23,11 @@ Procfile.d/
 
 # Ignore macOS system files
 .DS_Store
+
+# Ignore cache and model files
+__pycache__/
+*.pth
+*.h5
+*.pt
+*.ckpt
+models/
