@@ -5,7 +5,7 @@ from flask import abort
 
 app = Flask(__name__)
 
-model = pipeline("fill-mask", model="bert-base-uncased")
+model = pipeline("fill-mask", model="prajjwal1/bert-tiny")
 
 def check_auth(token):
     return token == "f2b77caf8c87de875317b4f18e2e71a1"
