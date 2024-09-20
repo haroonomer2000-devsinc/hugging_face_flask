@@ -31,3 +31,4 @@ __pycache__/
 *.pt
 *.ckpt
 models/
+venv1/
